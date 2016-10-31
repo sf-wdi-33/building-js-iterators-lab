@@ -96,8 +96,8 @@ You can do the same thing for the other iterators as well:
 
 ```bash
 # make sure you are inside the building-js-iterators-lab directory
-mocha test/myEachSpec.js
-mocha test/myReduceSpec.js
+mocha spec/myEachSpec.js
+mocha spec/myReduceSpec.js
 ```
 
 > **Pro-Tip**: Let the tests call your function for you. You should not be calling, e.g. `myMap` in your code directly.
@@ -110,7 +110,7 @@ mocha test/myReduceSpec.js
 For example, here is some test output with three passing (✓) tests:
 
 ```
-$ mocha test/myMapSpec.js
+$ mocha spec/myMapSpec.js
 
 
  myMap
