@@ -1,16 +1,25 @@
 {
-  "name": "iterator_builder",
+  "name": "building-js-iterators-lab",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!--  market: SF -->",
   "main": "index.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
+    "mocha": "^3.1.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "mocha"
   },
-  "author": "tgaff",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sf-wdi-labs/building-js-iterators-lab.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "chai": "^3.4.1",
-    "chai-spies": "^0.7.1",
-    "mocha": "^2.3.4"
-  }
+  "bugs": {
+    "url": "https://github.com/sf-wdi-labs/building-js-iterators-lab/issues"
+  },
+  "homepage": "https://github.com/sf-wdi-labs/building-js-iterators-lab#readme"
 }
